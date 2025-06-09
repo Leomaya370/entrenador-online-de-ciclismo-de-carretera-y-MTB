@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento Deportivo en Ciclismo - Lumelys</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <header>
+        <h1>🏋️‍♂️ Entrenamiento Deportivo</h1>
+        <p>Planes personalizados y asesoramiento profesional para mejorar tu rendimiento.</p>
+    </header>
+
+    <section>
+        <h2>📌 Servicios Disponibles</h2>
+        <ul>
+            <li>✅ Diseño de macrociclos de entrenamiento para grupos con atención individualizada a ciclistas estratégicos.</li>
+            <li>✅ Planes de entrenamiento personalizados.</li>
+            <li>✅ Asesoramiento para ciclistas aficionados y cicloturistas.</li>
+            <li>✅ Análisis de datos utilizando la plataforma Golden Cheetah.</li>
+            <li>✅ Diseños semanales de entrenamiento con medidores de potencia, monitores de frecuencia cardíaca y medición de cadencia.</li>
+            <li>✅ Planificación estratégica para la temporada de ciclismo.</li>
+            <li>✅ Evaluaciones de rendimiento mensuales y ajustes metodológicos.</li>
+            <li>✅ Creación de respuestas metodológicas para posibles errores detectados.</li>
+        </ul>
+    </section>
+
+    <section id="pricing">
+        <h2>💰 Tarifas de Entrenamiento</h2>
+        <p>✅ <strong>Cualquier servicio para ciclistas individuales</strong> – 45 USDT al mes</p>
+        <p>✅ <strong>Cualquier servicio para equipos de ciclismo</strong> – 70 USDT al mes</p>
+    </section>
+
+    <section id="trainer">
+        <h2>🏆 Conoce a tu Entrenador</h2>
+        <p><strong>Maurice Lazaro Espinosa Varela</strong> - Un entrenador con amplia experiencia en ciclismo de alto rendimiento.</p>
+        <p>Licenciado en Cultura Física y formación en Rehabilitación Física.</p>
+        <p>Especialista en análisis de rendimiento y planificación profesional de entrenamientos.</p>
+    </section>
+
+    <select id="language-selector" onchange="changeLanguage()">
+        <option value="es" selected>🇪🇸 Español</option>
+        <option value="en">🇺🇸 Inglés</option>
+    </select>
+
+    <script>
+        function changeLanguage() {
+            var lang = document.getElementById("language-selector").value;
+            if (lang === "en") {
+                window.location.href = "index.en.html";
+            } else {
+                window.location.href = "index.html";
+            }
+        }
+    </script>
+
+    <section id="contact">
+        <h2>📩 Contacta a un Entrenador</h2>
+        <p>Elige tu método de contacto preferido:</p>
+        <p>📧 <strong>Correo electrónico:</strong> <a href="mailto:coach@email.com">Enviar correo</a></p>
+        <p>📲 <strong>WhatsApp:</strong> <a href="https://wa.me/5353048709">Chat en WhatsApp</a></p>
+        <p>📩 <strong>Telegram:</strong> <a href="https://t.me/[USERNAME]">Chat en Telegram</a></p>
+    </section>
+
+</body>
+</html>
